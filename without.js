@@ -4,9 +4,6 @@ const without = function(array, itemsToremove) {
   //for loop to go over array
   for (let i = 0; i < array.length; i++) {
 
-    //for loop to go over itemsToremove
-    //if array loop indexes are equal to itemsToremove array indexes, push indexes to removed Items variable above 
-
     if (itemsToremove.includes(array[i])) {
       removedItems.push(array[i]);
     }
