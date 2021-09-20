@@ -14,11 +14,7 @@ const assertArraysEqual = function(array1, array2) {
   return "Assertion Passed";
 };
 
-// TEST CODE
-console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]))
-// => true
-console.log(assertArraysEqual([1, 2, 3], [3, 2, 1])) // => false
 
-//// to test the code type "console.log(functionName(resultvariablecalled, what it should look like)"
+module.exports = assertArraysEqual;
 
 
