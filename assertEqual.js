@@ -7,11 +7,11 @@ const assertEqual = function(actual, expected) {
     console.log("🟢 Assertion Passed: " + actual + " === " + expected);
 
   }
-  // } else {
 
-  // }
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+module.exports = assertEqual;
+
+// // TEST CODE
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1, 1);
