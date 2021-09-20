@@ -1,5 +1,4 @@
 
-
 // FUNCTION IMPLEMENTATION
 const eqArrays = function(array1, array2) {
   //try to make actual and expected into a string and then pass it into the if/else if
@@ -17,13 +16,7 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
-// TEST CODE
-console.log(eqArrays([1, 2, 3], [1, 2, 3]))
-// => true
-console.log(eqArrays([1, 2, 3], [3, 2, 1])) // => false
+module.exports = eqArrays;
 
-eqArrays(["1", "2", "3"], ["1", "2", "3"]) // => true
-eqArrays(["1", "2", "3"], ["1", "2", 3]) // => false
 
-// assertEqual("Lighthouse Labs", "Bootcamp");
-// assertEqual(1, 1);
+
