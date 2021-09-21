@@ -1,7 +1,4 @@
 
-
-
-
 // FUNCTION IMPLEMENTATION
 const head = function(array1) {
 

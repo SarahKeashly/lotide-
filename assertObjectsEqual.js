@@ -26,6 +26,7 @@ const assertObjectsEqual = function(actual, expected) {
   return `${inspect(actual)} does equal to ${inspect(expected)}`;
 
 }
+module.exports = assertObjectsEqual;
 
 const ab = { a: "1", b: "2" };
 const ab2 = { b: "3", a: "1" };

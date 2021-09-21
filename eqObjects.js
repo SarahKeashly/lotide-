@@ -22,6 +22,8 @@ const eqObjects = function(object1, object2) {
   return sameLength && allValuesEqual;
 }
 
+module.exports = eqObjects;
+
 const ab = { a: "1", b: "2" };
 const ab2 = { b: "3", a: "1" };
 const ba = { b: "2", a: "1" };

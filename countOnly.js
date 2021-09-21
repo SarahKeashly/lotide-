@@ -45,6 +45,8 @@ const countOnly = function(allItems, itemsToCount) {
 
 console.log(countOnly(firstNames, 34));
 
+module.exports = countOnly;
+
 
 // const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
 

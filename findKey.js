@@ -15,6 +15,8 @@ const findKey = function(object, callback) {
   }
 };
 
+module.exports = findKey;
+
 //to test the code, took out the function that was in the object above and created a new function with a variable so that we could then otherThing and thingChecker
 const otherThing = {
   "Blue Hill": { stars: 1 },

@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-
+module.exports = assertEqual;
 
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
